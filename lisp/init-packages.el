@@ -18,4 +18,12 @@
 (use-package restart-emacs
   :ensure t)
 
+(use-package evil
+  :ensure t)
+
+;; Enable Evil
+(require 'evil)
+(evil-mode 1)
+
+
 (provide 'init-packages)
