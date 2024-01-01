@@ -27,17 +27,29 @@
 
 (package-install 'consult)
 
-;;单引号问题
-(eval-after-load 'consult
-  (progn
-    (setq
-     consult-narrow-key "<"
-     consult-line-numbers-widen t
-     consult-async-min-input 2
-     consult-async-refresh-delay  0.15
-     consult-async-input-throttle 0.2
-     consult-async-input-debounce 0.1)
-    ))
+;;配置搜索中文,不需要注释掉
+;;(eval-after-load 'consult
+;;  (progn
+;;    (setq
+;;     consult-narrow-key "<"
+;;     consult-line-numbers-widen t
+;;     consult-async-min-input 2
+;;     consult-async-refresh-delay  0.15
+;;     consult-async-input-throttle 0.2
+;;     consult-async-input-debounce 0.1)
+;;    ))
+
+
+;; 禁用左尖括号
+(setq electric-pair-inhibit-predicate
+      `(lambda (c)
+	 (if (char-equal c ?\<) t (,electric-pair-inhibit-predicate c))))
+
+(add-hook 'org-mode-hook
+	  (lambda ()
+	    (setq-local electric-pair-inhibit-predicate
+			`(lambda (c)
+			   (if (char-equal c ?\<) t (,electric-pair-inhibit-predicate c))))))
 
 (package-install 'embark-consult)
 (package-install 'wgrep)
