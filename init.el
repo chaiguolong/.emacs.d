@@ -10,6 +10,7 @@
 (require 'init-tools)
 (require 'init-ui)
 (require 'init-keybindings)
+(require 'init-org)
 
 
 (setq custom-file (expand-file-name "~/.emacs.d/custom.el"))

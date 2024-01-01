@@ -22,8 +22,6 @@
 ;;删除选中的文字
 (delete-selection-mode 1)
 
-;开启easy template
-(require 'org-tempo)
 ;;外部磁盘修改的文字自动load当前buffer,保持文件的同步性
 (global-auto-revert-mode 1)
 ;;去除警报声
