@@ -6,9 +6,9 @@
 (require 'init-basic)
 (require 'init-funcs)
 (require 'init-packages)
-(require 'init-ui)
 (require 'init-completion)
 (require 'init-tools)
+(require 'init-ui)
 (require 'init-keybindings)
 
 

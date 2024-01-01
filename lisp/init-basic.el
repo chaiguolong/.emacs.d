@@ -2,6 +2,10 @@
 
 (show-paren-mode t)
 
+(savehist-mode t)
+
+(save-place-mode t)
+
 ;;去除备份文件
 (setq make-backup-files nil)
 
@@ -26,5 +30,30 @@
 (setq ring-bell-function 'ignore)
 ;;y-yes ;n-no
 (fset 'yes-or-no-p 'y-or-n-p)
+
+(use-package savehist
+  :ensure nil
+  :hook (after-init . savehist-mode)
+  :init (setq enable-recursive-minibuffers t ; Allow commands in minibuffers
+	      history-length 1000
+	      savehist-additional-variables '(mark-ring
+					      global-mark-ring
+					      search-ring
+					      regexp-search-ring
+					      extended-command-history)
+	      savehist-autosave-interval 300)
+  )
+
+(use-package saveplace
+  :ensure nil
+  :hook (after-init . save-place-mode))
+
+(use-package simple
+  :ensure nil
+  :hook (after-init . size-indication-mode)
+  :init
+  (progn
+    (setq column-number-mode t)
+    ))
 
 (provide 'init-basic)

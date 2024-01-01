@@ -1,4 +1,4 @@
-(package-install 'company)
+(use-package company)
 
 (global-company-mode 1)
 
@@ -9,23 +9,23 @@
 (setq tab-always-indent 'complete)
 
 ;;让mini-buffer更具有交互性
-(package-install 'vertico)
+(use-package vertico)
 (vertico-mode t)
 
 ;;在M-x查找函数是可以进行无序查找,提高emacs的可用性
-(package-install 'orderless)
+(use-package orderless)
 (setq completion-styles '(orderless))
 
 ;;将M-x查找的函数的命令注释显示在函数后面.
-(package-install 'marginalia)
+(use-package marginalia)
 (marginalia-mode t)
 
 
 ;;目前觉得这个插件不太用得到,可能还没有到哪个层次
-(package-install 'embark)
+(use-package embark)
 (setq prefix-help-command 'embark-prefix-help-command)
 
-(package-install 'consult)
+(use-package consult)
 
 ;;配置搜索中文,不需要注释掉
 ;;(eval-after-load 'consult
@@ -51,8 +51,8 @@
 			`(lambda (c)
 			   (if (char-equal c ?\<) t (,electric-pair-inhibit-predicate c))))))
 
-(package-install 'embark-consult)
-(package-install 'wgrep)
+(use-package embark-consult)
+(use-package wgrep)
 (setq wgrep-auto-save-buffer t)
 
 (eval-after-load 'consult
@@ -61,6 +61,6 @@
 	(require 'embark-consult)
 	(add-hook 'embark-collect-mode-hook #'consult-preview-at-point-mode))))
 
-(package-install 'magit)
+(use-package magit)
 
 (provide 'init-completion)
