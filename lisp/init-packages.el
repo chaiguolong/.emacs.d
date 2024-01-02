@@ -35,4 +35,18 @@
 ;;  (evil-mode 1)
 ;;  )
 
+
+(use-package quelpa)
+
+(unless (package-installed-p 'quelpa-use-package)
+  (quelpa
+   '(quelpa-use-package
+     :fetcher git
+     :url "https://github.com/quelpa/quelpa-use-package.git")))
+
+(use-package quelpa-use-package
+  :init
+  (setq quelpa-use-package-inhibit-loading-quelpa t)
+  :demand t)
+
 (provide 'init-packages)

@@ -145,10 +145,14 @@ Create prefix map: +general-global-NAME. Prefix bindings in BODY with INFIX-KEY.
     ;;SPC SPC 相当于M-x
     "SPC" 'execute-extended-command
     "'" 'vertico-repeat
+    ;;扩展区域SPC v,再按v不断扩充区域,按-减少选中区域
+    "v" 'er/expand-region
     "+" 'text-scale-increase
     "-" 'text-scale-decrease
     ;;因为C-u向上翻滚(vim按键),为了使用emac中的C-u所以绑定到了SPC u
     "u" 'universal-argument
+    "hc" 'zilongshanren/clearn-highlight
+    "hH" 'zilongshanren/highlight-dwim
     ;;emacs中的C-h f绑定到了SPC hdf
     "hdf" 'describe-function
     ;;emacs中的C-h v绑定到了SPC hdv
