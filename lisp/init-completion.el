@@ -55,6 +55,13 @@
 (use-package wgrep)
 (setq wgrep-auto-save-buffer t)
 
+
+;; minibuffer用c-j和c-k(make c-j/c-k work in vertico selection)
+;;因为可能会使用tmux c-j/c-k被占用,可能不会用这个快捷键
+(define-key vertico-map (kbd "C-j") 'vertico-next)
+(define-key vertico-map (kbd "C-k") 'vertico-previous)
+
+
 (eval-after-load 'consult
   '(eval-after-load 'embark
      '(progn
