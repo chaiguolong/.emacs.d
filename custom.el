@@ -14,4 +14,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(evil-snipe-first-match-face ((t (:inherit isearch))))
- '(evil-snipe-matches-face ((t (:inherit region :background "DarkOrange3")))))
+ '(evil-snipe-matches-face ((t (:weight extra-bold :foreground "DarkOrange1" :inherit region)))))

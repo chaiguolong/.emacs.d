@@ -1,5 +1,5 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/develop/.emacs.d/lisp/init-evil.el" . 758)
+(("/Users/develop/.emacs.d/lisp/init-evil.el" . 709)
  ("/Users/develop/.emacs.d/lisp/init-ui.el" . 206)
  ("/Users/develop/.emacs.d/lisp/init-basic.el" . 720)
  ("/Users/develop/.emacs.d/elpa/evil-snipe-20230821.1602/evil-snipe.el" . 7174)
