@@ -67,8 +67,9 @@
        new-bindings)
       (setq ad-return-value (cons new-msg new-bindings)))))
 
+
 ;;交互式的替换SPC v选中想要替换的单词,然后快捷键C-r,再进行替换
-(defun zilongshanren/evil-quick-replace (beg end )
+(defun zilongshanren/evil-quick-replace (beg end)
   (interactive "r")
   (when (evil-visual-state-p)
     (evil-exit-visual-state)
@@ -78,6 +79,8 @@
 	  (lambda () (backward-char 2))
 	(evil-ex command-string)))))
 
+
+;;这条命令所在的文件放在较前面会报错(evil-visual-state-map 无效).
 (define-key evil-visual-state-map (kbd "C-r") 'zilongshanren/evil-quick-replace)
 
 (defun zilongshanren/clearn-highlight ()

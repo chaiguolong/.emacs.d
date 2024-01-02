@@ -25,4 +25,8 @@ Supports exporting consult-grep to wgrep, file to wdeired, and consult-location 
   (interactive)
   (consult-directory-externally default-directory))
 
+
+
+
+
 (provide 'init-funcs)
