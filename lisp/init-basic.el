@@ -29,6 +29,7 @@
 ;;y-yes ;n-no
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;;好像是将前面使用过的命令记录下来,放在最前面
 (use-package savehist
   :ensure nil
   :hook (after-init . savehist-mode)

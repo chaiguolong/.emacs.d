@@ -6,7 +6,7 @@
  '(custom-safe-themes
    '("88f7ee5594021c60a4a6a1c275614103de8c1435d6d08cc58882f920e0cec65e" default))
  '(package-selected-packages
-   '(org-contrib org airline-themes gruvbox-theme doom-modeline magit wgrep embark-consult consult cosult embark marginalia orderless vertico keycast company))
+   '(undo-tree org-contrib org airline-themes gruvbox-theme doom-modeline magit wgrep embark-consult consult cosult embark marginalia orderless vertico keycast company))
  '(powerline-default-separator 'bar))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

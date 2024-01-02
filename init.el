@@ -11,6 +11,7 @@
 (require 'init-ui)
 (require 'init-keybindings)
 (require 'init-org)
+(require 'init-evil)
 
 
 (setq custom-file (expand-file-name "~/.emacs.d/custom.el"))
