@@ -1,13 +1,21 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/develop/.emacs.d/lisp/init-ui.el" . 755)
- ("/Users/develop/.emacs.d/lisp/init-basic.el" . 1151)
+(("/Users/develop/.emacs.d/lisp/init-evil.el" . 758)
+ ("/Users/develop/.emacs.d/lisp/init-ui.el" . 206)
+ ("/Users/develop/.emacs.d/lisp/init-basic.el" . 720)
+ ("/Users/develop/.emacs.d/elpa/evil-snipe-20230821.1602/evil-snipe.el" . 7174)
  ("/Users/develop/.emacs.d/lisp/"
-  (dired-filename . "/Users/develop/.emacs.d/lisp/init-completion.el"))
+  (dired-filename . "/Users/develop/.emacs.d/lisp/.."))
+ ("/Users/develop/.emacs.d/"
+  (dired-filename . "/Users/develop/.emacs.d/elpa"))
+ ("/Users/develop/.emacs.d/elpa/"
+  (dired-filename . "/Users/develop/.emacs.d/elpa/keycast-20231125.1624"))
+ ("/Users/develop/.emacs.d/elpa/keycast-20231125.1624/"
+  (dired-filename . "/Users/develop/.emacs.d/elpa/keycast-20231125.1624/keycast.el"))
+ ("/Users/develop/.emacs.d/elpa/keycast-20231125.1624/keycast.el" . 17417)
+ ("/Users/develop/.emacs.d/lisp/init-tools.el" . 111)
+ ("/Users/develop/.emacs.d/lisp/init-keybindings.el" . 87)
  ("/Users/develop/.emacs.d/lisp/init-completion.el" . 126)
  ("/Users/develop/.emacs.d/init.el" . 316)
- ("/Users/develop/.emacs.d/lisp/init-tools.el" . 129)
  ("/Users/develop/.emacs.d/lisp/init-packages.el" . 762)
  ("/Users/develop/.emacs.d/lisp/init-org.el" . 989)
- ("/Users/develop/.emacs.d/gtd.org" . 145)
- ("/Users/develop/.emacs.d/"
-  (dired-filename . "/Users/develop/.emacs.d/init.el")))
+ ("/Users/develop/.emacs.d/gtd.org" . 145))
