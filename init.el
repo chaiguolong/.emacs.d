@@ -10,6 +10,7 @@
 (require 'init-keybindings)
 (require 'init-org)
 (require 'init-evil)
+(require 'init-programming)
 (require 'init-tools)
 (require 'init-ui)
 
