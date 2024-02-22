@@ -159,7 +159,33 @@ Create prefix map: +general-global-NAME. Prefix bindings in BODY with INFIX-KEY.
     "hdv" 'describe-variable
     ;;emacs中的C-h k绑定到了SPC hdk
     "hdk" 'describe-key
+
+    ;; 这里是其他的快捷键
+    "0" 'select-window-0
+    "1" 'select-window-1
+    "2" 'select-window-2
+    "3" 'select-window-3
+    "4" 'select-window-4
+    "5" 'select-window-5
     ))
+
+(+general-global-menu! "window" "w"
+    ;;下面快捷键和教程不一样,我采用的是\,因为是特殊字符,需要反编译一下\字符
+    "\\" 'split-window-right
+    "-" 'split-window-below
+    "m" 'delete-other-windows
+    "u" 'winner-undo
+    "z" 'winner-redo
+    "w" 'esw/select-window
+    "s" 'esw/swap-two-windows
+    "d" 'esw/delete-window
+    "=" 'balance-windows-area
+    "r" 'esw/move-window
+    "x" 'resize-window
+    "H" 'buf-move-left
+    "L" 'buf-move-right
+    "J" 'buf-move-down
+    "K" 'buf-move-up)
 
 ;;将和buffer相关归为一组(前缀SPC b)
 (+general-global-menu! "buffer" "b"

@@ -13,6 +13,7 @@
 (require 'init-programming)
 (require 'init-tools)
 (require 'init-ui)
+(require 'init-window)
 
 
 (setq custom-file (expand-file-name "~/.emacs.d/custom.el"))
