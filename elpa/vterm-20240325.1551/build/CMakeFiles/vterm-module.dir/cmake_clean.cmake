@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../vterm-module.pdb"
-  "../vterm-module.so"
+  "/Users/develop/.emacs.d/elpa/vterm-20240325.1551/vterm-module.pdb"
+  "/Users/develop/.emacs.d/elpa/vterm-20240325.1551/vterm-module.so"
   "CMakeFiles/vterm-module.dir/elisp.c.o"
   "CMakeFiles/vterm-module.dir/elisp.c.o.d"
   "CMakeFiles/vterm-module.dir/utf8.c.o"

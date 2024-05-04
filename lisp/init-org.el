@@ -64,7 +64,7 @@ See `org-capture-templates' for more information."
                  ;; It is assumed that below file is present in `org-directory'
                  ;; and that it has a "Blog Ideas" heading. It can even be a
                  ;; symlink pointing to the actual location of all-posts.org!
-                 (file+headline "/home/dream/blog/all-blog.org" "Blog Ideas")
+                 (file+headline "~/blog/all-blog.org" "Blog Ideas")
                  (function org-hugo-new-subtree-post-capture-template))))
 
 (provide 'init-org)
