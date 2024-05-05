@@ -73,6 +73,7 @@ Main data structure of the dispatcher with the form:
 	  "\\*Embark Export:.*\\*"
 	  "\\*Edit Annotation.*\\*"
 	  "\\*Flutter\\*"
+	  "\\*undo-tree\\*" undo-tree-visualizer-mode
 	  bookmark-bmenu-mode
 	  lsp-bridge-ref-mode
 	  comint-mode
