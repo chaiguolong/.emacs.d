@@ -39,7 +39,7 @@
 
 (use-package ox-hugo
   :ensure t   ;Auto-install the package from Melpa
-  :pin melpa-tuna  ;`package-archives' should already have ("melpa" . "https://melpa.org/packages/")
+  :pin melpa  ;`package-archives' should already have ("melpa" . "https://melpa.org/packages/")
   :after ox)
 
 (with-eval-after-load 'org-capture

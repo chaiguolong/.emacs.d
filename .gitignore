@@ -6,6 +6,7 @@ recentf
 /transient/
 /elpa/
 /tree-sitter/
+/lisp/*.elc
 .org-id-locations
 bookmarks
 history
