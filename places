@@ -1,4 +1,5 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
+<<<<<<< HEAD
 (("/home/dream/.emacs.d/lisp/init-ui.el" . 887)
  ("/home/dream/.emacs.d/lisp/init-packages.el" . 750)
  ("/home/dream/.emacs.d/lisp/"
@@ -16,3 +17,11 @@
  ("/usr/local/share/emacs/29.1/lisp/progmodes/elisp-mode.el.gz" . 94846)
  ("/usr/local/share/emacs/29.1/lisp/simple.el.gz" . 394775)
  ("/home/dream/.emacs.d/init.el" . 202))
+=======
+(("/Users/develop/.emacs.d/lisp/init-org.el" . 2254)
+ ("/Users/develop/blog/all-blog.org" . 995)
+ ("/Users/develop/.emacs.d/bookmarks" . 251)
+ ("/Users/develop/.emacs.d/"
+  (dired-filename . "/Users/develop/.emacs.d/gtd.org"))
+ ("/Users/develop/.emacs.d/lisp/init-keybindings.el" . 632))
+>>>>>>> 39ff6d44b6adc921f6627387a9499eab34c3ccda

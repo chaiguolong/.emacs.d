@@ -1,4 +1,5 @@
 /auto-save-list/
+/elpa/
 /recentf
 /eshell/
 /server/
@@ -8,3 +9,6 @@
 history
 place
 .org-id-locations
+bookmarks
+history
+places
