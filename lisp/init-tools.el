@@ -112,6 +112,11 @@
 (use-package vterm-toggle
   :ensure t)
 
+(use-package google-translate
+  :ensure t
+  :init
+  (setq google-translate-translation-directions-alist '(("en" . "zh-CN"))))
+
 
 (provide 'init-tools)
 
