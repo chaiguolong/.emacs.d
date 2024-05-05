@@ -2,9 +2,9 @@
 (require 'org-tempo)
 
 ;; 安装org 之前，一定要配置 use-package 不使用内置的org 版本，可以使用本段代码最后面的代码，具体位置可以参考视频
-(use-package org
-  :pin melpa-tuna
-  :ensure t)
+;;(use-package org
+;;  :pin melpa-tuna
+;;  :ensure t)
 
 (use-package org-contrib
   :pin nongnu
@@ -64,7 +64,7 @@ See `org-capture-templates' for more information."
                  ;; It is assumed that below file is present in `org-directory'
                  ;; and that it has a "Blog Ideas" heading. It can even be a
                  ;; symlink pointing to the actual location of all-posts.org!
-                 (file+headline "/home/dream/blog/all-blog.org" "Blog Ideas")
+                 (file+headline "~/blog/all-blog.org" "Blog Ideas")
                  (function org-hugo-new-subtree-post-capture-template))))
 
 (provide 'init-org)

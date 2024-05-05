@@ -93,17 +93,17 @@
   (define-key symbol-overlay-map (kbd "h") 'nil)
   )
 
-(use-package highlight-global
-  :ensure nil
-  :commands (highlight-frame-toggle)
-  :quelpa (highlight-global :fetcher github :repo "glen-dai/highlight-global")
-  :config
-  (progn
-    (setq-default highlight-faces
-		  '(('hi-red-b . 0)
-		    ('hi-aquamarine . 0)
-		    ('hi-pink . 0)
-		    ('hi-blue-b . 0)))))
+;;(use-package highlight-global
+;;  :ensure nil
+;;  :commands (highlight-frame-toggle)
+;;  :quelpa (highlight-global :fetcher github :repo "glen-dai/highlight-global")
+;;  :config
+;;  (progn
+;;    (setq-default highlight-faces
+;;		  '(('hi-red-b . 0)
+;;		    ('hi-aquamarine . 0)
+;;		    ('hi-pink . 0)
+;;		    ('hi-blue-b . 0)))))
 
 ;;安装终端vterm
 (use-package vterm

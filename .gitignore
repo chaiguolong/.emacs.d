@@ -3,4 +3,8 @@
 /eshell/
 /server/
 /transient/
+/elpa/
+/tree-sitter/
+history
+place
 .org-id-locations

@@ -17,6 +17,6 @@
 (global-set-key (kbd "C-c C-a") 'embark-act)
 
 (global-set-key (kbd "C-c p f") 'project-find-file)
-(global-set-key (kbd "C-c p s") 'consult-grep)
+(global-set-key (kbd "C-c p s") 'consult-ripgrep)
 
 (provide 'init-keybindings)

@@ -39,13 +39,15 @@
 ;;
 ;;  :init
 ;;  (doom-modeline-mode t))
-;;(use-package airline-themes :ensure t)
 
-(require 'powerline)
-(powerline-default-theme)
+(use-package powerline
+  :ensure t)
 
-(require 'airline-themes)
-(load-theme 'airline-base16_gruvbox_dark_hard  t)
+(use-package airline-themes
+ :ensure t)
+
+(load-theme 'airline-base16_gruvbox_dark_hard t)
+
 
 (provide 'init-ui)
 
