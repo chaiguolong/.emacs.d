@@ -4,6 +4,8 @@
 (global-set-key (kbd "C-h C-f") 'find-function)
 (global-set-key (kbd "C-h C-v") 'find-variable)
 (global-set-key (kbd "C-h C-k") 'find-function-on-key)
+;;默认是C-c C-,因为iterm2无法将C-,传递过来,所以改个快捷键
+(global-set-key (kbd "C-c c") 'org-insert-structure-template)
 
 ;;显示关键字列表
 (global-set-key (kbd "C-s") 'consult-line)
