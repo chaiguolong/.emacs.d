@@ -7,7 +7,7 @@ recentf
 /elpa/
 /tree-sitter/
 /lisp/*.elc
-/ur/*
+/url/*
 /other/*
 .org-id-locations
 bookmarks
