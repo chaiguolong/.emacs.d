@@ -18,7 +18,7 @@
 ;;安装主题
 ;;(use-package monokai-theme)
 ;;(load-theme 'monokai 1)
-
+;;
 ;;(use-package doom-themes)
 ;;(load-theme 'doom-one 1)
 

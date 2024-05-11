@@ -117,7 +117,8 @@
   :init
   (setq google-translate-translation-directions-alist '(("en" . "zh-CN"))))
 
-
+;;(use-package leetcode
+;;  :ensure t)
 (provide 'init-tools)
 
 
