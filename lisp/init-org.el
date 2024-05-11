@@ -67,4 +67,12 @@ See `org-capture-templates' for more information."
                  (file+headline "~/blog/all-blog.org" "Blog Ideas")
                  (function org-hugo-new-subtree-post-capture-template))))
 
+;; active Babel languages
+(org-babel-do-load-languages
+'org-babel-load-languages
+'((shell . t)
+  (python . t)
+  (js . t)))
+
+
 (provide 'init-org)

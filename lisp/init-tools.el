@@ -117,8 +117,15 @@
   :init
   (setq google-translate-translation-directions-alist '(("en" . "zh-CN"))))
 
+<<<<<<< HEAD
 ;;(use-package leetcode
 ;;  :ensure t)
+=======
+;;emacsGUI设置代理
+;;(setq url-gateway-method 'socks)
+;;(setq socks-server '("Default server" "127.0.0.1" 1081 5))
+
+>>>>>>> e1561d480699a3177e70c69f912af3b935e6c061
 (provide 'init-tools)
 
 
