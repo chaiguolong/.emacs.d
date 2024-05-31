@@ -127,6 +127,13 @@
 (use-package yasnippet-snippets
   :ensure t)
 
+(use-package nov
+  :ensure t
+  :init
+  (setq nov-unzip-program (executable-find "bsdtar")
+    nov-unzip-args '("-xC" directory "-f" filename))
+  (add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
+  )
 
 (provide 'init-tools)
 
