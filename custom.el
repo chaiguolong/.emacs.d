@@ -8,7 +8,7 @@
  '(keycast-header-line-remove-tail-elements nil)
  '(keycast-mode-line-remove-tail-elements t)
  '(package-selected-packages
-   '(nov-xwidget nov pdf-tools leetcode google-translate vterm-toggle vterm ox-hugo fanyi popper resize-window buffer-move es-windows window-numbering treesit-auto highlight-global quelpa-use-package quelpa symbol-overlay expand-region evil-multiedit iedit general evil-anzu undo-tree org-contrib org airline-themes gruvbox-theme doom-modeline magit wgrep embark-consult consult cosult embark marginalia orderless vertico keycast company))
+   '(epub-mode yasnippet-snippets yasnippet nov-xwidget nov pdf-tools leetcode google-translate vterm-toggle vterm ox-hugo fanyi popper resize-window buffer-move es-windows window-numbering treesit-auto highlight-global quelpa-use-package quelpa symbol-overlay expand-region evil-multiedit iedit general evil-anzu undo-tree org-contrib org airline-themes gruvbox-theme doom-modeline magit wgrep embark-consult consult cosult embark marginalia orderless vertico keycast company))
  '(powerline-default-separator 'bar))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

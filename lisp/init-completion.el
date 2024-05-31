@@ -68,6 +68,5 @@
 	(require 'embark-consult)
 	(add-hook 'embark-collect-mode-hook #'consult-preview-at-point-mode))))
 
-(use-package magit)
 
 (provide 'init-completion)
