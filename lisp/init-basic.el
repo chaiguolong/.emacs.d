@@ -6,6 +6,9 @@
 
 (save-place-mode t)
 
+;;默认采用utf-8
+(setq default-buffer-coding-system 'utf-8)
+
 ;;去除备份文件
 (setq make-backup-files nil)
 
