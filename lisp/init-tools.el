@@ -1,3 +1,5 @@
+
+
 ;;modeline上显示我的所有按键和执行命令
 ;;(use-package keycast)
 ;;(add-to-list 'global-mode-string '("" keycast-mode-line))
@@ -116,6 +118,14 @@
   :ensure t
   :init
   (setq google-translate-translation-directions-alist '(("en" . "zh-CN"))))
+
+(use-package nov
+  :ensure t
+  :init
+  (setq nov-unzip-program (executable-find "bsdtar")
+	nov-unzip-args '("-xC" directory "-f" filename))
+  (add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
+  )
 
 (provide 'init-tools)
 

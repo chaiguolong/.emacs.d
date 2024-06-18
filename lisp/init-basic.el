@@ -19,6 +19,7 @@
 ;;用consult-buffer来打开最近文件
 (global-set-key (kbd "C-x b") 'consult-buffer)
 
+
 ;;删除选中的文字
 (delete-selection-mode 1)
 
@@ -28,6 +29,12 @@
 (setq ring-bell-function 'ignore)
 ;;y-yes ;n-no
 (fset 'yes-or-no-p 'y-or-n-p)
+
+;;设置字体大小
+(set-face-attribute 'default nil :height 180)
+
+;;去掉滚动条
+(set-scroll-bar-mode nil)
 
 ;;好像是将前面使用过的命令记录下来,放在最前面
 (use-package savehist
