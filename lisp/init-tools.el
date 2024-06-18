@@ -1,5 +1,3 @@
-
-
 ;;modeline上显示我的所有按键和执行命令
 ;;(use-package keycast)
 ;;(add-to-list 'global-mode-string '("" keycast-mode-line))
@@ -119,11 +117,21 @@
   :init
   (setq google-translate-translation-directions-alist '(("en" . "zh-CN"))))
 
+(use-package yasnippet
+  :ensure t
+  :init
+  (yas-global-mode 1)
+  :config
+  (add-to-list 'yas-snippet-dirs (locate-user-emacs-file "snippets")))
+
+(use-package yasnippet-snippets
+  :ensure t)
+
 (use-package nov
   :ensure t
   :init
   (setq nov-unzip-program (executable-find "bsdtar")
-	nov-unzip-args '("-xC" directory "-f" filename))
+    nov-unzip-args '("-xC" directory "-f" filename))
   (add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
   )
 

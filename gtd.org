@@ -1,27 +1,11 @@
 * DONE head1
-** WAITING head2
+** CANCELLED head2
+CLOSED: [2024-06-04 Tue 10:20]
+:LOGBOOK:
+- State "CANCELLED"  from "WAITING"    [2024-06-04 Tue 10:20]
+:END:
 - State "WAITING"    from              [2024-01-02 Tue 00:24] \\
   there is a meeting
-
-;;agenda
-* TODO [#A] Daily routine [0%]                                  :learn:emacs:
-DEADLINE: <2024-01-02 Tue 21:00> SCHEDULED: <2024-01-02 Sun 08:00 +1d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-01-10 Tue 00:50]
-:RESET_CHECK_BOXES: t
-:Effort:   00:60
-:END:
-:LOGBOOK:
-- State "DONE"       from              [2024-01-02 Tue 00:50]
-- State "DONE"       from              [2024-01-02 Tue 00:50]  :emacs:
-- State "DONE"       from              [2024-01-02 Tue 00:48]
-- State "DONE"       from              [2024-01-02 Tue 00:45]
-- State "DONE"       from              [2024-01-02 Tue 00:38]
-:END:
-  - [ ] leetcode
-  - [ ] exercise
-  - [ ] coding
-* Workspace
 
 ** DONE [#B] Learn Emacs                                              :emacs:
 CLOSED: [2024-05-03 Fri 02:08] SCHEDULED: <2024-01-02 Tue 22:00>
@@ -34,11 +18,100 @@ CLOSED: [2024-05-03 Fri 02:08] SCHEDULED: <2024-01-02 Tue 22:00>
   
  [2024-01-02 Tue 01:34]
 
-** TODO [#B]去要工资
+** DONE [#B]去要工资
+CLOSED: [2024-06-04 Tue 10:20]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-06-04 Tue 10:20]
+:END:
   
  [2024-05-03 Fri 02:05]
 
-** TODO [#B] 明天去面试
+** CANCELLED [#B] 明天去面试
+CLOSED: [2024-06-04 Tue 10:21]
+:LOGBOOK:
+- State "CANCELLED"  from "TODO"       [2024-06-04 Tue 10:21] \\
+  我没有去,不想去了
+:END:
   
  [2024-05-04 Sat 23:35]
+
+** DONE [#B]早上看两节linux书籍. 
+CLOSED: [2024-06-04 Tue 10:21]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-06-04 Tue 10:21]
+:END:
+  
+ [2024-06-04 Tue 07:12]
+
+
+* Workspace
+
+** DONE [#B]阅读完一节linux书籍 
+CLOSED: [2024-06-04 Tue 22:59] DEADLINE: <2024-06-05 Wed 00:00> SCHEDULED: <2024-06-04 Tue 22:20>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-06-04 Tue 22:59]
+:END:
+  
+ [2024-06-04 Tue 22:17]
+
+** DONE [#B]将Fedora配置成主力电脑 
+CLOSED: [2024-06-05 三 15:44]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-06-05 三 15:44]
+:END:
+  
+ [2024-06-04 Tue 23:00]
+
+** DONE [#B]看两节Linux数据 
+CLOSED: [2024-06-05 三 15:45]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-06-05 三 15:45]
+:END:
+  
+ [2024-06-05 三 11:58]
+
+** DONE [#B]看两节Linux书籍 
+CLOSED: [2024-06-06 四 08:54]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-06-06 四 08:54]
+:END:
+  
+ [2024-06-05 三 20:17]
+
+** DONE [#B]看两节Linux书籍 
+CLOSED: [2024-06-06 四 09:12] DEADLINE: <2024-06-06 四 12:00> SCHEDULED: <2024-06-06 四 09:00>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-06-06 四 09:12]
+:END:
+  
+ [2024-06-06 四 08:52]
+
+** DONE [#B]看两节Linux书籍
+CLOSED: [2024-06-06 四 11:46]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-06-06 四 11:46]
+:END:
+  
+ [2024-06-06 四 09:13]
+
+** DONE [#B]看两节linux书籍
+CLOSED: [2024-06-17 一 11:07] DEADLINE: <2024-06-17 一 12:30> SCHEDULED: <2024-06-17 一 09:30>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-06-17 一 11:07]
+:END:
+  
+ [2024-06-17 一 09:19]
+
+** DONE [#B]Linux看2节 
+CLOSED: [2024-06-17 一 14:54] DEADLINE: <2024-06-17 一 16:00> SCHEDULED: <2024-06-17 一 14:10>
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2024-06-17 一 14:54]
+:END:
+  
+ [2024-06-17 一 14:00]
+
+** TODO [#B]看Linux2节 
+DEADLINE: <2024-06-18 二 16:00> SCHEDULED: <2024-06-18 二 14:00>
+  
+ [2024-06-18 二 13:42]
 

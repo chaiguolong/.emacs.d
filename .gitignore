@@ -10,9 +10,12 @@ recentf
 /lisp/*.elc
 /url/*
 /other/*
+/eln-cache/
 .org-id-locations
 bookmarks
 history
 places
 custom.el
 projects
+nov-places
+.bookmarks.~undo-tree~
