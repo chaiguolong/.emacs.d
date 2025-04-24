@@ -1,4 +1,4 @@
-(global-display-line-numbers-mode 0)
+(global-display-line-numbers-mode 1)
 
 (setq inhibit-startup-screen 1)
 

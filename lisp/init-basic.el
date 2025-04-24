@@ -22,6 +22,12 @@
 ;;用consult-buffer来打开最近文件
 (global-set-key (kbd "C-x b") 'consult-buffer)
 
+;;设置代理,用GUI的时候
+(setq url-gateway-method 'socks)
+(setq socks-server '("Default server" "127.0.0.1" 1081 5))
+
+;;自动折行
+;;(toggle-truncate-lines 1)
 
 ;;删除选中的文字
 (delete-selection-mode 1)

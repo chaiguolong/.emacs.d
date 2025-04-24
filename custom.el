@@ -7,8 +7,10 @@
    '("88f7ee5594021c60a4a6a1c275614103de8c1435d6d08cc58882f920e0cec65e" default))
  '(keycast-header-line-remove-tail-elements nil)
  '(keycast-mode-line-remove-tail-elements t)
+ '(org-agenda-files
+   '("~/Documents/record/books/Linux_Shell脚本攻略/让文本飞_抄书.org" "/Users/develop/.emacs.d/gtd.org"))
  '(package-selected-packages
-   '(epub-mode yasnippet-snippets yasnippet nov-xwidget nov pdf-tools leetcode google-translate vterm-toggle vterm ox-hugo fanyi popper resize-window buffer-move es-windows window-numbering treesit-auto highlight-global quelpa-use-package quelpa symbol-overlay expand-region evil-multiedit iedit general evil-anzu undo-tree org-contrib org airline-themes gruvbox-theme doom-modeline magit wgrep embark-consult consult cosult embark marginalia orderless vertico keycast company))
+   '(auto-complete org-drill epub-mode yasnippet-snippets yasnippet nov-xwidget nov pdf-tools leetcode google-translate vterm-toggle vterm ox-hugo fanyi popper resize-window buffer-move es-windows window-numbering treesit-auto highlight-global quelpa-use-package quelpa symbol-overlay expand-region evil-multiedit iedit general evil-anzu undo-tree org-contrib org airline-themes gruvbox-theme doom-modeline magit wgrep embark-consult consult cosult embark marginalia orderless vertico keycast company))
  '(powerline-default-separator 'bar))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

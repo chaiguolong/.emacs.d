@@ -1,6 +1,6 @@
 (require 'package)
 (setq package-archives '(("gnu"    .  "http://elpa.gnu.org/packages/")
-			 ("nongnu" . "https://elpa.nongnu.org/nongnu/")
+			 ("nongnu" .  "https://elpa.nongnu.org/nongnu/")
 			 ("melpa"  .  "https://melpa.org/packages/")))
 
 (package-initialize)
