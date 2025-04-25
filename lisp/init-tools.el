@@ -135,6 +135,10 @@
   (add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
   )
 
+(use-package guess-word
+  :load-path "./emacs-guess-word-game"
+  :commands (guess-word))
+
 (provide 'init-tools)
 
 
