@@ -139,6 +139,18 @@
   :load-path "./emacs-guess-word-game"
   :commands (guess-word))
 
+
+;; Support Chinese word
+;; (setq osx-dictionary-use-chinese-text-segmentation t)
+
+;; Key bindings
+(global-set-key (kbd "C-c d") 'osx-dictionary-search-word-at-point)
+;; (global-set-key (kbd "C-c i") 'osx-dictionary-search-input)
+
+;; Work with popwin-el (https://github.com/m2ym/popwin-el)
+;; (push "*osx-dictionary*" popwin:special-display-config)
+
+
 (provide 'init-tools)
 
 
