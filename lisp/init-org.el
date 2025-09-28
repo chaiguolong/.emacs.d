@@ -24,10 +24,15 @@
 (setq org-agenda-files '("~/.emacs.d/gtd.org"))
 (setq org-agenda-span 'day)
 
+
 (setq org-capture-templates
       '(("t" "Todo" entry (file+headline "~/.emacs.d/gtd.org" "Workspace")
 	 "* TODO [#B] %?\n  %i\n %U"
-	 :empty-lines 1)))
+	 :empty-lines 1)
+      ("w" "Word" entry (file+headline "~/.emacs.d/word.org" "wordspace")
+	 "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
+	 :empty-lines 1))
+      )
 
 (global-set-key (kbd "C-c r") 'org-capture)
 
