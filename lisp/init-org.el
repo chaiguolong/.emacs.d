@@ -29,7 +29,7 @@
       '(("t" "Todo" entry (file+headline "~/.emacs.d/gtd.org" "Workspace")
 	 "* TODO [#B] %?\n  %i\n %U"
 	 :empty-lines 1)
-      ("w" "Word" entry (file+headline "~/.emacs.d/word.org" "wordspace")
+      ("w" "Word" entry (file+headline "~/Documents/record/english/word.org" "wordspace")
 	 "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
 	 :empty-lines 1))
       )
