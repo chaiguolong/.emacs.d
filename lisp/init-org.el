@@ -72,6 +72,34 @@ See `org-capture-templates' for more information."
                  (file+headline "~/blog/all-blog.org" "Blog Ideas")
                  (function org-hugo-new-subtree-post-capture-template))))
 
+
+(use-package org-download
+  :ensure t
+  :demand t
+  :after org
+  :config
+
+  
+  ;;(setq)org-download-image-org-width
+
+  ;;//设置添加图片的默认宽度
+  (setq org-download-image-org-width 500)
+  ;;//设置图片实际尺寸为nil,这样才可以改变尺寸
+  (setq org-image-actual-width nil)
+  (add-hook 'dired-mode-hook 'org-download-enable)
+  ;; :ensure-system-package (pngpaste . "brew install pngpaste")
+  (setq org-download-screenshot-method "pngpaste %s")
+  ;; https://imagemagick.org/script/download.php#windows  ImageMagick-7.1.0-portable-Q16-HDRI-x86.zip
+  (defun org-download-annotate-default (link)
+    "Annotate LINK with the time of download."
+    (make-string 0 ?\s))
+
+  (setq-default org-download-heading-lvl nil
+                org-download-image-dir "./img"
+                ;; org-download-screenshot-method "screencapture -i %s"
+                org-download-screenshot-file (expand-file-name "screenshot.jpg" temporary-file-directory)))
+
+
 ;; active Babel languages
 (org-babel-do-load-languages
 'org-babel-load-languages
