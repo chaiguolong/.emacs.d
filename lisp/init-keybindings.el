@@ -7,7 +7,7 @@
 
 ;;显示关键字列表
 (global-set-key (kbd "C-s") 'consult-line)
-;;差早函数列表
+;;查找函数列表
 (global-set-key (kbd "M-s i") 'consult-imenu)
 
 ;;没什么用,没弄明白,导出的buffer不可写,embark-export-write没有

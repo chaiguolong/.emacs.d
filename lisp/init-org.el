@@ -83,7 +83,7 @@ See `org-capture-templates' for more information."
   ;;(setq)org-download-image-org-width
 
   ;;//设置添加图片的默认宽度
-  (setq org-download-image-org-width 500)
+  (setq org-download-image-org-width 300)
   ;;//设置图片实际尺寸为nil,这样才可以改变尺寸
   (setq org-image-actual-width nil)
   (add-hook 'dired-mode-hook 'org-download-enable)
