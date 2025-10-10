@@ -18,4 +18,5 @@ places
 custom.el
 projects
 nov-places
+.DS_Store
 .bookmarks.~undo-tree~
