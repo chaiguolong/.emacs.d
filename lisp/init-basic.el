@@ -34,6 +34,9 @@
 
 ;;外部磁盘修改的文字自动load当前buffer,保持文件的同步性
 (global-auto-revert-mode 1)
+;; 也自动刷新 dired，但保持静默
+(setq global-auto-revert-non-file-buffers t)
+(setq auto-revert-verbose nil)
 ;;去除警报声
 (setq ring-bell-function 'ignore)
 ;;y-yes ;n-no
@@ -44,6 +47,7 @@
 
 ;;去掉滚动条
 (set-scroll-bar-mode nil)
+
 
 ;;好像是将前面使用过的命令记录下来,放在最前面
 (use-package savehist
