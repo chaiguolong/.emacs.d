@@ -8,6 +8,7 @@ recentf
 /elpa/
 /tree-sitter/
 /lisp/*.elc
+/lisp/*#*
 /url/*
 /other/*
 /eln-cache/
