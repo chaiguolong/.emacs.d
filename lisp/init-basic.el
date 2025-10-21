@@ -22,9 +22,14 @@
 ;;用consult-buffer来打开最近文件
 (global-set-key (kbd "C-x b") 'consult-buffer)
 
+
+(setq url-proxy-services
+          '(("http" . "127.0.0.1:8001")
+            ("https" . "127.0.0.1:8001")))
+
 ;;设置代理,用GUI的时候
-(setq url-gateway-method 'socks)
-(setq socks-server '("Default server" "127.0.0.1" 1081 5))
+;;(setq url-gateway-method 'socks)
+;;(setq socks-server '("Default server" "127.0.0.1" 1081 5))
 
 ;;自动折行
 ;;(toggle-truncate-lines 1)
@@ -74,5 +79,9 @@
   (progn
     (setq column-number-mode t)
     ))
+
+;; 递归的使用minibuffer
+(setq scroll-margin 3)
+
 
 (provide 'init-basic)
