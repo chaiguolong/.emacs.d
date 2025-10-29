@@ -19,13 +19,31 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
-
 (require 'use-package-ensure)
 (setq use-package-always-ensure t)
 
-
 (use-package restart-emacs
   :ensure t)
+
+;;启用hungry-delete-mode
+;;可以一次删除多个空格
+(use-package hungry-delete
+  :ensure t
+  :init
+  (global-hungry-delete-mode t)
+  )
+
+(use-package js2-mode
+  :ensure t
+  :init
+  ;;config for js-2-mode
+  (setq auto-mode-alist
+	(append
+	'(("\\.js\\'" . js2-mode))
+	auto-mode-alist))
+  )
+
+
 
 ;;(use-package evil
 ;;  :ensure t

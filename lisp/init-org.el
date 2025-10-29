@@ -26,13 +26,41 @@
 
 
 (setq org-capture-templates
-      '(("t" "Todo" entry (file+headline "~/.emacs.d/gtd.org" "Workspace")
+      '(("t" "Todo" entry (file+headline "~/.emacs.d/gtd.org" "日常")
 	 "* TODO [#B] %?\n  %i\n %U"
 	 :empty-lines 1)
-      ("w" "Word" entry (file+headline "~/Documents/record/english/word.org" "wordspace")
-	 "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
-	 :empty-lines 1))
-      )
+;;      ("w" "Word" entry (file+headline "~/Documents/record/english/word.org" "wordspace")
+;;	 "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
+;;	 :empty-lines 1)
+	  ))
+
+;;模版分组
+(add-to-list 'org-capture-templates '("e" "English"))
+
+(add-to-list 'org-capture-templates
+             '("ea" "Book one" entry
+               (file+headline "~/Documents/record/english/Puss_in_Boots.org" "Reading Book")
+               "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
+	       :empty-lines 1))
+
+(add-to-list 'org-capture-templates
+             '("eb" "Book two" entry
+               (file+headline "~/Documents/record/english/Thumbelina.org" "Reading Book")
+               "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
+	       :empty-lines 1))
+
+
+(add-to-list 'org-capture-templates
+             '("ec" "Book three" entry
+               (file+headline "~/Documents/record/english/Test.org" "Reading Book")
+               "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
+	       :empty-lines 1))
+
+
+;;(add-to-list 'org-capture-templates
+;;             '("t" "Todo" entry (file+headline "~/.emacs.d/gtd.org" "Workspace")
+;;		"* TODO [#B] %?\n  %i\n %U" :empty-lines 1))
+
 
 (global-set-key (kbd "C-c r") 'org-capture)
 
@@ -106,6 +134,11 @@ See `org-capture-templates' for more information."
 '((shell . t)
   (python . t)
   (js . t)))
+
+
+
+
+
 
 
 (provide 'init-org)
