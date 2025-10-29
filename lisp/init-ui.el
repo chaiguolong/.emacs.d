@@ -1,3 +1,4 @@
+;;1为显示行号;-1隐藏行号
 (global-display-line-numbers-mode 1)
 
 (setq inhibit-startup-screen 1)
@@ -34,13 +35,13 @@
     ))
 
 ;; 这里的执行顺序非常重要，doom-modeline-mode 的激活时机一定要在设置global-mode-string 之后‘
-;;(use-package doom-modeline
-;;  :ensure t
-;;
-;;  :init
-;;  (doom-modeline-mode t))
+
+
 
 (use-package powerline
+  :init
+  ; 对于 Evil 模式用户
+  (powerline-default-theme)
   :ensure t)
 
 (use-package airline-themes
@@ -48,6 +49,32 @@
 
 (load-theme 'airline-base16_gruvbox_dark_hard t)
 
+;;隐藏modeline中次要模式名称
+(require 'diminish)
+; Hide lighter from yas-minor-mode
+(diminish 'yas-minor-mode)
+; Hide lighter from hungry-delete-mode
+(diminish 'hungry-delete-mode)
+; Hide lighter from company-mode
+(diminish 'company-mode)
+; Hide lighter from evil-snipe-local-mode
+(diminish 'evil-snipe-local-mode)
+; Hide lighter from evil-collection-unimpaired-mode
+(diminish 'evil-collection-unimpaired-mode)
+; Hide lighter from anzu-mode
+(diminish 'anzu-mode)
+; Hide lighter from eldoc-mode
+(diminish 'eldoc-mode)
+
+;;设置本地环境编码
+(set-locale-environment "en_US.UTF-8")
+;; 这个是为了在 org mode 中用英文显示日期，默认是中文
+(setq system-time-locale "C")
+
+(setq display-time-format "  %H:%M")
+;;不显示系统负载
+(setq display-time-default-load-average nil)
+(display-time-mode 1)
 
 (provide 'init-ui)
 
