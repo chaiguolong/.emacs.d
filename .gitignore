@@ -12,6 +12,7 @@ recentf
 /url/*
 /other/*
 /eln-cache/
+/.cache/
 .org-id-locations
 bookmarks
 history
