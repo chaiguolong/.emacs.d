@@ -92,6 +92,7 @@ Main data structure of the dispatcher with the form:
 	  "^\\*shell.*\\*.*$"  shell-mode
 	  "^\\*terminal.*\\*.*$" term-mode
 	  "^\\*vterm.*\\*.*$"  vterm-mode
+	  "^\\Org Agenda*\\*.*$" org-agenda-mode 
 
 	  "\\*DAP Templates\\*$" dap-server-log-mode
 	  "\\*ELP Profiling Restuls\\*" profiler-report-mode
