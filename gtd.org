@@ -1,117 +1,60 @@
-* DONE head1
-** CANCELLED head2
-CLOSED: [2024-06-04 Tue 10:20]
-:LOGBOOK:
-- State "CANCELLED"  from "WAITING"    [2024-06-04 Tue 10:20]
-:END:
-- State "WAITING"    from              [2024-01-02 Tue 00:24] \\
-  there is a meeting
+#+TITLE: 个人事项
+#+SEQ_TODO: TODO(t) NEXT(n) SOMETIME(s) | DONE(d)
 
-** DONE [#B] Learn Emacs                                              :emacs:
-CLOSED: [2024-05-03 Fri 02:08] SCHEDULED: <2024-01-02 Tue 22:00>
-:PROPERTIES:
-:Effort:   00:30
-:END:
+# 日常: 写今日计划|写今日总结|晨练|打扫卫生|鱼缸换水|洗漱|吃饭|睡觉|
+# 学习: 早上晨读|英语看视频抄写|英语背单词|英语默写
+
+
+* 日常
+
+** TODO 抄写Puss in boots.
+** 将Puss in boots.org转为txt格式.并导入kindle.
+** DONE 鱼缸换水
+CLOSED: [2025-10-20 一 20:50]
+** DONE 在emacs中去掉了minor mode,添加了时间和日期.
+CLOSED: [2025-10-20 一 20:49]
+
+** DONE [#B] Read one episode of Puss in boot
+CLOSED: [2025-10-25 Sat 00:40] DEADLINE: <2025-10-25 Sat 01:00> SCHEDULED: <2025-10-25 Sat 00:20>
+  
+ [2025-10-25 Sat 00:16]
+
+** DONE [#B] write one episode of Puss in boot
+CLOSED: [2025-10-25 Sat 03:18] DEADLINE: <2025-10-25 Sat 03:20> SCHEDULED: <2025-10-25 Sat 03:00>
+  
+ [2025-10-25 Sat 02:56]
+
+** DONE [#B] write one episode of Puss in boots.
+CLOSED: [2025-10-25 Sat 11:47] DEADLINE: <2025-10-25 Sat 11:20> SCHEDULED: <2025-10-25 Sat 11:00>
+  
+ [2025-10-25 Sat 10:56]
+
+** DONE [#B] write one episode of Puss in boots.
+CLOSED: [2025-10-27 Mon 18:32] DEADLINE: <2025-10-27 Mon 18:30> SCHEDULED: <2025-10-27 Mon 18:10>
+  
+ [2025-10-27 Mon 18:01]
+
+** DONE [#B] write one episode of Puss in boots.
+CLOSED: [2025-10-27 Mon 19:20] DEADLINE: <2025-10-27 Mon 19:30> SCHEDULED: <2025-10-27 Mon 19:05>
 :LOGBOOK:
-- State "DONE"       from "TODO"       [2024-05-03 Fri 02:08]
+CLOCK: [2025-10-27 Mon 19:07]--[2025-10-27 Mon 19:20] =>  0:13
 :END:
   
- [2024-01-02 Tue 01:34]
+ [2025-10-27 Mon 19:02]
 
-** DONE [#B]去要工资
-CLOSED: [2024-06-04 Tue 10:20]
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2024-06-04 Tue 10:20]
-:END:
+
+** DONE [#B] write one episode of Puss in boots
+CLOSED: [2025-10-29 Wed 13:58] DEADLINE: <2025-10-29 Wed 14:05> SCHEDULED: <2025-10-29 Wed 13:45>
   
- [2024-05-03 Fri 02:05]
+ [2025-10-29 Wed 13:40]
 
-** CANCELLED [#B] 明天去面试
-CLOSED: [2024-06-04 Tue 10:21]
-:LOGBOOK:
-- State "CANCELLED"  from "TODO"       [2024-06-04 Tue 10:21] \\
-  我没有去,不想去了
-:END:
+** DONE [#B] write one episode of Puss in boot.
+CLOSED: [2025-10-29 Wed 14:20] DEADLINE: <2025-10-29 Wed 14:30> SCHEDULED: <2025-10-29 Wed 14:10>
+  G
+ [2025-10-29 Wed 14:01]
+
+** DONE [#B] copy one episode of Puss in boots.
+CLOSED: [2025-10-29 Wed 16:27] DEADLINE: <2025-10-29 Wed 16:30> SCHEDULED: <2025-10-29 Wed 16:10>
   
- [2024-05-04 Sat 23:35]
-
-** DONE [#B]早上看两节linux书籍. 
-CLOSED: [2024-06-04 Tue 10:21]
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2024-06-04 Tue 10:21]
-:END:
-  
- [2024-06-04 Tue 07:12]
-
-
-* Workspace
-
-** DONE [#B]阅读完一节linux书籍 
-CLOSED: [2024-06-04 Tue 22:59] DEADLINE: <2024-06-05 Wed 00:00> SCHEDULED: <2024-06-04 Tue 22:20>
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2024-06-04 Tue 22:59]
-:END:
-  
- [2024-06-04 Tue 22:17]
-
-** DONE [#B]将Fedora配置成主力电脑 
-CLOSED: [2024-06-05 三 15:44]
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2024-06-05 三 15:44]
-:END:
-  
- [2024-06-04 Tue 23:00]
-
-** DONE [#B]看两节Linux数据 
-CLOSED: [2024-06-05 三 15:45]
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2024-06-05 三 15:45]
-:END:
-  
- [2024-06-05 三 11:58]
-
-** DONE [#B]看两节Linux书籍 
-CLOSED: [2024-06-06 四 08:54]
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2024-06-06 四 08:54]
-:END:
-  
- [2024-06-05 三 20:17]
-
-** DONE [#B]看两节Linux书籍 
-CLOSED: [2024-06-06 四 09:12] DEADLINE: <2024-06-06 四 12:00> SCHEDULED: <2024-06-06 四 09:00>
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2024-06-06 四 09:12]
-:END:
-  
- [2024-06-06 四 08:52]
-
-** DONE [#B]看两节Linux书籍
-CLOSED: [2024-06-06 四 11:46]
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2024-06-06 四 11:46]
-:END:
-  
- [2024-06-06 四 09:13]
-
-** DONE [#B]看两节linux书籍
-CLOSED: [2024-06-17 一 11:07] DEADLINE: <2024-06-17 一 12:30> SCHEDULED: <2024-06-17 一 09:30>
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2024-06-17 一 11:07]
-:END:
-  
- [2024-06-17 一 09:19]
-
-** DONE [#B]Linux看2节 
-CLOSED: [2024-06-17 一 14:54] DEADLINE: <2024-06-17 一 16:00> SCHEDULED: <2024-06-17 一 14:10>
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2024-06-17 一 14:54]
-:END:
-  
- [2024-06-17 一 14:00]
-
-** TODO [#B]看Linux2节 
-DEADLINE: <2024-06-18 二 16:00> SCHEDULED: <2024-06-18 二 14:00>
-  
- [2024-06-18 二 13:42]
+ [2025-10-29 Wed 16:08]
 
