@@ -10,8 +10,9 @@
  '(org-agenda-files
    '("~/Documents/record/books/Linux_Shell脚本攻略/让文本飞_抄书.org" "/Users/develop/.emacs.d/gtd.org"))
  '(package-selected-packages
-   '(org-download mpvi emms wordnut osx-dictionary f s auto-complete org-drill epub-mode yasnippet-snippets yasnippet nov-xwidget nov pdf-tools leetcode google-translate vterm-toggle vterm ox-hugo fanyi popper resize-window buffer-move es-windows window-numbering treesit-auto highlight-global quelpa-use-package quelpa symbol-overlay expand-region evil-multiedit iedit general evil-anzu undo-tree org-contrib org airline-themes gruvbox-theme doom-modeline magit wgrep embark-consult consult cosult embark marginalia orderless vertico keycast company))
- '(powerline-default-separator 'bar))
+   '(org-pomodoro treemacs-tab-bar treemacs-persp treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil treemacs doom-themes diminish js2-mode hungry-delete org-download mpvi emms wordnut osx-dictionary f s auto-complete org-drill epub-mode yasnippet-snippets yasnippet nov-xwidget nov leetcode google-translate vterm-toggle vterm ox-hugo fanyi popper resize-window buffer-move es-windows window-numbering treesit-auto highlight-global quelpa-use-package quelpa symbol-overlay expand-region evil-multiedit iedit general evil-anzu undo-tree org-contrib org airline-themes gruvbox-theme doom-modeline magit wgrep embark-consult consult cosult embark marginalia orderless vertico keycast company))
+ '(powerline-default-separator 'bar)
+ '(powerline-utf-8-separator-right 57520))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
