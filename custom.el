@@ -4,13 +4,13 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("88f7ee5594021c60a4a6a1c275614103de8c1435d6d08cc58882f920e0cec65e" default))
+   '("3613617b9953c22fe46ef2b593a2e5bc79ef3cc88770602e7e569bbd71de113b" "7b8f5bbdc7c316ee62f271acf6bcd0e0b8a272fdffe908f8c920b0ba34871d98" "88f7ee5594021c60a4a6a1c275614103de8c1435d6d08cc58882f920e0cec65e" default))
  '(keycast-header-line-remove-tail-elements nil)
  '(keycast-mode-line-remove-tail-elements t)
  '(org-agenda-files
    '("~/Documents/record/books/Linux_Shell脚本攻略/让文本飞_抄书.org" "/Users/develop/.emacs.d/gtd.org"))
  '(package-selected-packages
-   '(org-pomodoro treemacs-tab-bar treemacs-persp treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil treemacs doom-themes diminish js2-mode hungry-delete org-download mpvi emms wordnut osx-dictionary f s auto-complete org-drill epub-mode yasnippet-snippets yasnippet nov-xwidget nov leetcode google-translate vterm-toggle vterm ox-hugo fanyi popper resize-window buffer-move es-windows window-numbering treesit-auto highlight-global quelpa-use-package quelpa symbol-overlay expand-region evil-multiedit iedit general evil-anzu undo-tree org-contrib org airline-themes gruvbox-theme doom-modeline magit wgrep embark-consult consult cosult embark marginalia orderless vertico keycast company))
+   '(color-theme-sanityinc-tomorrow org-pomodoro treemacs-tab-bar treemacs-persp treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil treemacs doom-themes diminish js2-mode hungry-delete org-download mpvi emms wordnut osx-dictionary f s auto-complete org-drill epub-mode yasnippet-snippets yasnippet nov-xwidget nov leetcode google-translate vterm-toggle vterm ox-hugo fanyi popper resize-window buffer-move es-windows window-numbering treesit-auto highlight-global quelpa-use-package quelpa symbol-overlay expand-region evil-multiedit iedit general evil-anzu undo-tree org-contrib org airline-themes gruvbox-theme doom-modeline magit wgrep embark-consult consult cosult embark marginalia orderless vertico keycast company))
  '(powerline-default-separator 'bar)
  '(powerline-utf-8-separator-right 57520))
 (custom-set-faces
