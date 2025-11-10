@@ -81,7 +81,9 @@
     ))
 
 ;; 递归的使用minibuffer
-(setq scroll-margin 3)
+(setq scroll-margin 1)
 
+;; 服务器模式
+(server-start)
 
 (provide 'init-basic)

@@ -29,30 +29,30 @@
       '(("t" "Todo" entry (file+headline "~/.emacs.d/gtd.org" "日常")
 	 "* TODO [#B] %?\n  %i\n %U"
 	 :empty-lines 1)
-;;      ("w" "Word" entry (file+headline "~/Documents/record/english/word.org" "wordspace")
-;;	 "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
-;;	 :empty-lines 1)
+	("i" "Idea" entry (file+headline "~/.emacs.d/idea.org" "灵感")
+	 "* %?"
+	 :empty-lines 1)
 	  ))
 
 ;;模版分组
 (add-to-list 'org-capture-templates '("e" "English"))
 
 (add-to-list 'org-capture-templates
-             '("ea" "Book one" entry
-               (file+headline "~/Documents/record/english/Puss_in_Boots.org" "Reading Book")
+             '("ea" "Puss_in_Boots" entry
+               (file+headline "~/Documents/record/english/Puss_in_Boots.org" "Puss_in_Boots")
                "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
 	       :empty-lines 1))
 
 (add-to-list 'org-capture-templates
-             '("eb" "Book two" entry
-               (file+headline "~/Documents/record/english/Thumbelina.org" "Reading Book")
+             '("eb" "Thumbelina" entry
+               (file+headline "~/Documents/record/english/Thumbelina.org" "Thumbelina")
                "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
 	       :empty-lines 1))
 
 
 (add-to-list 'org-capture-templates
-             '("ec" "Book three" entry
-               (file+headline "~/Documents/record/english/Test.org" "Reading Book")
+             '("ec" "Magic Tree" entry
+               (file+headline "~/Documents/record/english/Magic_Tree.org" "Magic Tree")
                "* 单词 \t\t\t:drill:\n%?%i\n** 释义 %i\n"
 	       :empty-lines 1))
 
@@ -137,6 +137,10 @@ See `org-capture-templates' for more information."
 
 
 
+;; <WARN> redefines org-format-latex as empty procedure when running non-graphical Emacs
+;; 在终端模式下不能使用org-drill,看看下面这个命令可不可以有效
+(unless (display-graphic-p) 
+  (defun org-format-latex (prefix &optional beg end dir overlays msg forbuffer processing-type) ""))
 
 
 
