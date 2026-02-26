@@ -24,8 +24,8 @@
 
 
 (setq url-proxy-services
-          '(("http" . "127.0.0.1:8001")
-            ("https" . "127.0.0.1:8001")))
+          '(("http" . "127.0.0.1:1082")
+            ("https" . "127.0.0.1:1082")))
 
 ;;设置代理,用GUI的时候
 ;;(setq url-gateway-method 'socks)

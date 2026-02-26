@@ -53,6 +53,13 @@
 ;;
 ;;(load-theme 'airline-base16_gruvbox_dark_hard t)
 
+
+(use-package doom-modeline
+  :ensure t
+  :init (doom-modeline-mode 1))
+
+
+
 (use-package doom-themes
   :ensure t
   :custom
