@@ -79,6 +79,18 @@
   (doom-themes-org-config)
   )
 
+;; 1. 隐藏强调标记（如星号 *、斜杠 / 等）
+(setq org-hide-emphasis-markers t)
+
+;; 2. 修改加粗（星号）的样式：变为红色 + 加粗
+(setq org-emphasis-alist
+      '(("*" (:foreground "red" :weight bold))
+        ("/" italic)
+        ("_" underline)
+        ("=" org-verbatim verbatim)
+        ("~" org-code verbatim)
+        ("+" (:strike-through t))))
+
 
 
 ;;隐藏modeline中次要模式名称
