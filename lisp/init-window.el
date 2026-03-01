@@ -86,8 +86,7 @@ Main data structure of the dispatcher with the form:
 	  grep-mode occur-mode rg-mode deadgrep-mode ag-mode pt-mode
 	  ivy-occur-mode ivy-occur-grep-mode
 	  process-menu-mode list-environment-mode cargo-process-mode
-	  youdao-dictionary-mode osx-dictionary-mode fanyi-mode
-
+	  osx-dictionary-mode fanyi-mode youdao-dictionary-mode google-translate-mode
 	  "^\\*eshell.*\\*.*$" eshell-mode
 	  "^\\*shell.*\\*.*$"  shell-mode
 	  "^\\*terminal.*\\*.*$" term-mode
